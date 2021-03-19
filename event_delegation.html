@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="buttons">
+		<button class="buttonclass">Click Me!</button>
+		<button class="buttonclass1">Click Me!</button>
+	</div>
+<script type="text/javascript" >
+	document.getElementById('buttons').addEventListener('click', event =>{
+		if(event.target.className === 'buttonclass')
+		{
+			document.write("Click! The event delegation triggered!");
+		}
+		else
+		{
+			document.write("The event delegation is not triggered!");
+		}
+	});
+</script>
+</body>
+</html>
