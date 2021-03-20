@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		h1
+            {
+			font-size: 175px; 
+                  width: 900px; 
+                  margin: 200px; 
+                  text-align: center; 
+                  border: 2px solid black; 
+                  border-radius: 20px; 
+		}
+		#container
+            {
+			background: black;
+                  max-width: 700px;
+                  line-height: 30px;
+                  min-width: 350px;
+                  margin-left: 350px  ;
+                  padding :60px ;
+                  text-align: center;
+                  border: 7px solid #37474F;
+                  border-radius: 40px;     
+                  transition: all 0.5s ease-in;
+                  color: #37474F;
+                  font-size: 18px;
+                  font-family: helvetica; 
+		}
+            h2
+            {
+                  color: white;
+            }
+	</style>
+</head>
+<body>
+      <div id="container">
+            <h2> Digital Clock </h2>
+            <p id="demo"></p>
+            <script type = "text/javascript" src="digitalclock.js"> </script>
+            </br></br>
+            <button onclick="startTime()" value = "Display">Start</button>
+            <button onclick="stopTime()" value = "Display">Stop</button>
+      </div>
+</body>
+</html>
