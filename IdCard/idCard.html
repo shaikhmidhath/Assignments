@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ID Card Generator</title>
+	<link rel="stylesheet" href="idCard.css">
+</head>
+<body>
+    
+<div id="id-card">
+  
+  <div class="id-card material-ui-shadow"><!-- creating shadow on id card css 13-26-->    
+    <!-- \\ create empty image  css 35-48-->
+  <div class="id-cardimage">
+    <img src="empty-avatar.png" id="id-card-image" style="float:left;">
+  </div>
+    <!-- // empty image -->
+
+    <!-- \\ details css 79-112 -->
+  <label style="color: blue;">GENERATED ID CARD</label><br>
+    <div class="details" >
+      
+        <label class="detail-label">Name:</label>
+        <span class="detail-value" id="id-card-name"></span><br>
+      
+        <label class="detail-label">College Name:</label>
+        <span class="detail-value" id="id-card-collegename"></span><br>
+      
+        <label class="detail-label">Location:</label>
+        <span class="detail-value" id="id-card-location"></span>
+    <!-- // details -->
+    </div>
+  
+  </div>
+
+<!-- // form strats here css 130-150 -->
+  <div style="float:left;">
+      <div id="id-form" >
+      <label style="color: blue;" >ENTER STUDENT'S DETAILS</label><br>
+      <div class="form-label">Enter Name</div>
+        <div class="form-input">
+        <input type="text" id="name" style="font-family: FontAwesome;" placeholder="&#xf007">
+          <!--<input type="text" id="name" placeholder="">-->
+        </div>
+      <div class="form-label">Enter College Name</div>
+        <div class="form-input">
+          <input type="text" id="collegename" style="font-family: FontAwesome;" placeholder="&#xf19c">
+        </div>
+      <div class="form-label">Enter Location</div>
+        <div class="form-input">
+          <input type="text" id="location" style="font-family: FontAwesome;" placeholder="&#xf041">
+        </div>
+      <div class="form-label" >Choose Student's Image</div>
+        <div class="form-input">
+          <input type="file" id="image" accept="image/*">
+        </div>
+      <button id="createID" style="color: blue " >Generate Card</button>
+  </div>
+  </div>
+</div>
+<script src="idCard.js" type="text/javascript"></script>
+</body>
+</html>

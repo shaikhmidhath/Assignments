@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body {
+  background: #e2e1e0;
+  margin: 0;
+  padding: 12vmin 10vmin;
+  max-width: 50em;
+  line-height: 1.5em;
+  font-family: 'PT Sans';
+  word-wrap: break-word;
+}
+input,span{
+  color: red;
+}
+.details{
+  margin-top: 8px;
+  padding-left: 20px auto;
+}
+#bordertext{
+  background-color: blue;
+  text-align: center;
+  font-size: 20px;
+}
+#id-card{
+  
+  float: right;
+  margin-right: 2em;
+  position : right;
+  display: right;
+  padding: 3px;
+  margin: 5px;
+  
+  border-top: 20px solid blue;
+  border-bottom:0.2px solid blue;
+  border-left:0.2px solid blue;
+  border-right:0.2px solid blue;
+  border-radius-top: 20px; 
+}
+#id-card-image {
+  
+  width : 128px;
+  height: 128px;
+}
+
+.id-card {
+  width: 336px;
+  height: 192px;
+  background: #ffffff;
+  padding: 10px;
+  position: relative;
+  
+    img{
+      width: 100px;
+      height: 100px;
+      position: right;
+    }
+  }
+
+#id-form {
+
+  
+
+}
+
+.material-ui-shadow {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.material-ui-shadow:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
